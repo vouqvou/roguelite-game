@@ -1,0 +1,14 @@
+{
+  "enemies": {
+    "melee":  { "hp": 20, "dmg": 5,  "speed": 3.0, "behavior": "chase" },
+    "swarm":  { "hp": 8,  "dmg": 3,  "speed": 4.5, "behavior": "chase" },
+    "ranged": { "hp": 15, "dmg": 7,  "speed": 2.2, "behavior": "kite" },
+    "elite":  { "hp": 90, "dmg": 12, "speed": 2.8, "behavior": "chase", "armor": 5 }
+  },
+  "bosses": {
+    "brute_king":    { "hp": 600,  "dmg": 18, "phases": 2 },
+    "ranged_matron": { "hp": 750,  "dmg": 22, "phases": 2 },
+    "twin_wardens":  { "hp": 500,  "dmg": 20, "count": 2, "phases": 1 },
+    "the_devourer":  { "hp": 1800, "dmg": 30, "phases": 3 }
+  }
+}
