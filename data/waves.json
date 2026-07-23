@@ -1,0 +1,11 @@
+{
+  "waves": [
+    { "wave": 1, "duration_s": 30, "composition": { "melee": 6, "swarm": 4 } },
+    { "wave": 2, "duration_s": 35, "composition": { "melee": 8, "swarm": 6 } },
+    { "wave": 5, "duration_s": 60, "boss": "brute_king", "composition": { "melee": 4, "swarm": 6 } },
+    { "wave": 10, "duration_s": 70, "boss": "ranged_matron", "composition": { "ranged": 6, "elite": 2 } },
+    { "wave": 15, "duration_s": 80, "boss": "twin_wardens", "composition": { "elite": 4, "ranged": 6 } },
+    { "wave": 20, "duration_s": 90, "boss": "the_devourer", "composition": { "elite": 6, "swarm": 10 } }
+  ],
+  "scaling": { "hp_per_wave": 0.12, "dmg_per_wave": 0.08, "spawn_growth": 1.5 }
+}
