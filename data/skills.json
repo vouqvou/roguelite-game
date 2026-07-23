@@ -1,0 +1,14 @@
+{
+  "skills": [
+    { "id": "sharp_edge",   "name": "Sharp Edge",   "category": "offense", "rarity": "common", "effect": "+15% attack damage" },
+    { "id": "quick_hands",  "name": "Quick Hands",  "category": "offense", "rarity": "common", "effect": "+12% attack speed" },
+    { "id": "thick_hide",   "name": "Thick Hide",   "category": "defense", "rarity": "common", "effect": "+20 max HP" },
+    { "id": "swift_boots",  "name": "Swift Boots",  "category": "utility", "rarity": "common", "effect": "+10% move speed" },
+    { "id": "ricochet",     "name": "Ricochet",     "category": "offense", "rarity": "rare",   "effect": "attacks bounce to 1 extra target" },
+    { "id": "life_leech",   "name": "Life Leech",   "category": "synergy", "rarity": "rare",   "effect": "heal 4% of damage dealt" },
+    { "id": "frost_aura",   "name": "Frost Aura",   "category": "defense", "rarity": "rare",   "effect": "slow nearby enemies 25%" },
+    { "id": "overload",     "name": "Overload",     "category": "synergy", "rarity": "epic",   "effect": "every 5th hit deals 300% AoE" },
+    { "id": "second_wind",  "name": "Second Wind",  "category": "defense", "rarity": "epic",   "effect": "revive once per run at 40% HP" }
+  ],
+  "rarity_weights": { "early": { "common": 70, "rare": 25, "epic": 5 }, "late": { "common": 40, "rare": 40, "epic": 20 } }
+}
